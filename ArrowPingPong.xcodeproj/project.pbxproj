@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463444961F5D8B3A00327AE2 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463444951F5D8B3A00327AE2 /* MenuVC.swift */; };
+		466391C51F53E72600CAB0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466391C41F53E72600CAB0BB /* AppDelegate.swift */; };
+		466391C71F53E72600CAB0BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 466391C61F53E72600CAB0BB /* GameScene.sks */; };
+		466391C91F53E72600CAB0BB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 466391C81F53E72600CAB0BB /* Actions.sks */; };
+		466391CB1F53E72600CAB0BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466391CA1F53E72600CAB0BB /* GameScene.swift */; };
+		466391CD1F53E72600CAB0BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466391CC1F53E72600CAB0BB /* GameViewController.swift */; };
+		466391D01F53E72700CAB0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466391CE1F53E72700CAB0BB /* Main.storyboard */; };
+		466391D21F53E72700CAB0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466391D11F53E72700CAB0BB /* Assets.xcassets */; };
+		466391D51F53E72700CAB0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466391D31F53E72700CAB0BB /* LaunchScreen.storyboard */; };
+		466391E01F53E72800CAB0BB /* JustJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466391DF1F53E72800CAB0BB /* JustJumpTests.swift */; };
+		466391EB1F53E72800CAB0BB /* JustJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466391EA1F53E72800CAB0BB /* JustJumpUITests.swift */; };
+		46D42EA21F70031C00DC8EF9 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46D42EA11F70031C00DC8EF9 /* background.mp3 */; };
+		46F1A2FE1F6140F7004A774D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F1A2FC1F6140F7004A774D /* GoogleMobileAds.framework */; };
+		46F1A2FF1F6140F7004A774D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46F1A2FD1F6140F7004A774D /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466391DC1F53E72800CAB0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466391B91F53E72500CAB0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466391C01F53E72500CAB0BB;
+			remoteInfo = JustJump;
+		};
+		466391E71F53E72800CAB0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466391B91F53E72500CAB0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466391C01F53E72500CAB0BB;
+			remoteInfo = JustJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463444951F5D8B3A00327AE2 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = ../MenuVC.swift; sourceTree = "<group>"; };
+		466391C11F53E72500CAB0BB /* ArrowPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrowPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466391C41F53E72600CAB0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466391C61F53E72600CAB0BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		466391C81F53E72600CAB0BB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		466391CA1F53E72600CAB0BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		466391CC1F53E72600CAB0BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		466391CF1F53E72700CAB0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466391D11F53E72700CAB0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466391D41F53E72700CAB0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466391D61F53E72700CAB0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466391DB1F53E72800CAB0BB /* ArrowPingPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowPingPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466391DF1F53E72800CAB0BB /* JustJumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustJumpTests.swift; sourceTree = "<group>"; };
+		466391E11F53E72800CAB0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466391E61F53E72800CAB0BB /* ArrowPingPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowPingPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466391EA1F53E72800CAB0BB /* JustJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustJumpUITests.swift; sourceTree = "<group>"; };
+		466391EC1F53E72800CAB0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D42EA11F70031C00DC8EF9 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		46F1A2FC1F6140F7004A774D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		46F1A2FD1F6140F7004A774D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466391BE1F53E72500CAB0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F1A2FE1F6140F7004A774D /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391D81F53E72800CAB0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391E31F53E72800CAB0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466391B81F53E72500CAB0BB = {
+			isa = PBXGroup;
+			children = (
+				466391C31F53E72500CAB0BB /* JustJump */,
+				466391DE1F53E72800CAB0BB /* JustJumpTests */,
+				466391E91F53E72800CAB0BB /* JustJumpUITests */,
+				466391C21F53E72500CAB0BB /* Products */,
+				46F1A2FB1F6140F7004A774D /* GoogleMobileAdsSdkiOS-7.20.0 */,
+			);
+			sourceTree = "<group>";
+		};
+		466391C21F53E72500CAB0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466391C11F53E72500CAB0BB /* ArrowPingPong.app */,
+				466391DB1F53E72800CAB0BB /* ArrowPingPongTests.xctest */,
+				466391E61F53E72800CAB0BB /* ArrowPingPongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466391C31F53E72500CAB0BB /* JustJump */ = {
+			isa = PBXGroup;
+			children = (
+				46D42EA11F70031C00DC8EF9 /* background.mp3 */,
+				466391C41F53E72600CAB0BB /* AppDelegate.swift */,
+				466391C61F53E72600CAB0BB /* GameScene.sks */,
+				466391C81F53E72600CAB0BB /* Actions.sks */,
+				466391CA1F53E72600CAB0BB /* GameScene.swift */,
+				466391CC1F53E72600CAB0BB /* GameViewController.swift */,
+				463444951F5D8B3A00327AE2 /* MenuVC.swift */,
+				466391CE1F53E72700CAB0BB /* Main.storyboard */,
+				466391D11F53E72700CAB0BB /* Assets.xcassets */,
+				466391D31F53E72700CAB0BB /* LaunchScreen.storyboard */,
+				466391D61F53E72700CAB0BB /* Info.plist */,
+			);
+			name = JustJump;
+			path = ArrowPingPong;
+			sourceTree = "<group>";
+		};
+		466391DE1F53E72800CAB0BB /* JustJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				466391DF1F53E72800CAB0BB /* JustJumpTests.swift */,
+				466391E11F53E72800CAB0BB /* Info.plist */,
+			);
+			path = JustJumpTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		466391E91F53E72800CAB0BB /* JustJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466391EA1F53E72800CAB0BB /* JustJumpUITests.swift */,
+				466391EC1F53E72800CAB0BB /* Info.plist */,
+			);
+			path = JustJumpUITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		46F1A2FB1F6140F7004A774D /* GoogleMobileAdsSdkiOS-7.20.0 */ = {
+			isa = PBXGroup;
+			children = (
+				46F1A2FC1F6140F7004A774D /* GoogleMobileAds.framework */,
+				46F1A2FD1F6140F7004A774D /* README.txt */,
+			);
+			path = "GoogleMobileAdsSdkiOS-7.20.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466391C01F53E72500CAB0BB /* ArrowPingPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466391EF1F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPong" */;
+			buildPhases = (
+				466391BD1F53E72500CAB0BB /* Sources */,
+				466391BE1F53E72500CAB0BB /* Frameworks */,
+				466391BF1F53E72500CAB0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArrowPingPong;
+			productName = JustJump;
+			productReference = 466391C11F53E72500CAB0BB /* ArrowPingPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466391DA1F53E72800CAB0BB /* ArrowPingPongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466391F21F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPongTests" */;
+			buildPhases = (
+				466391D71F53E72800CAB0BB /* Sources */,
+				466391D81F53E72800CAB0BB /* Frameworks */,
+				466391D91F53E72800CAB0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466391DD1F53E72800CAB0BB /* PBXTargetDependency */,
+			);
+			name = ArrowPingPongTests;
+			productName = JustJumpTests;
+			productReference = 466391DB1F53E72800CAB0BB /* ArrowPingPongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466391E51F53E72800CAB0BB /* ArrowPingPongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466391F51F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPongUITests" */;
+			buildPhases = (
+				466391E21F53E72800CAB0BB /* Sources */,
+				466391E31F53E72800CAB0BB /* Frameworks */,
+				466391E41F53E72800CAB0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466391E81F53E72800CAB0BB /* PBXTargetDependency */,
+			);
+			name = ArrowPingPongUITests;
+			productName = JustJumpUITests;
+			productReference = 466391E61F53E72800CAB0BB /* ArrowPingPongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466391B91F53E72500CAB0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iOSDevelopment;
+				TargetAttributes = {
+					466391C01F53E72500CAB0BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DU6693Q99U;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					466391DA1F53E72800CAB0BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DU6693Q99U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466391C01F53E72500CAB0BB;
+					};
+					466391E51F53E72800CAB0BB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DU6693Q99U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466391C01F53E72500CAB0BB;
+					};
+				};
+			};
+			buildConfigurationList = 466391BC1F53E72500CAB0BB /* Build configuration list for PBXProject "ArrowPingPong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466391B81F53E72500CAB0BB;
+			productRefGroup = 466391C21F53E72500CAB0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466391C01F53E72500CAB0BB /* ArrowPingPong */,
+				466391DA1F53E72800CAB0BB /* ArrowPingPongTests */,
+				466391E51F53E72800CAB0BB /* ArrowPingPongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466391BF1F53E72500CAB0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D42EA21F70031C00DC8EF9 /* background.mp3 in Resources */,
+				466391D01F53E72700CAB0BB /* Main.storyboard in Resources */,
+				466391C71F53E72600CAB0BB /* GameScene.sks in Resources */,
+				466391D21F53E72700CAB0BB /* Assets.xcassets in Resources */,
+				466391D51F53E72700CAB0BB /* LaunchScreen.storyboard in Resources */,
+				46F1A2FF1F6140F7004A774D /* README.txt in Resources */,
+				466391C91F53E72600CAB0BB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391D91F53E72800CAB0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391E41F53E72800CAB0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466391BD1F53E72500CAB0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466391CB1F53E72600CAB0BB /* GameScene.swift in Sources */,
+				463444961F5D8B3A00327AE2 /* MenuVC.swift in Sources */,
+				466391CD1F53E72600CAB0BB /* GameViewController.swift in Sources */,
+				466391C51F53E72600CAB0BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391D71F53E72800CAB0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466391E01F53E72800CAB0BB /* JustJumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466391E21F53E72800CAB0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466391EB1F53E72800CAB0BB /* JustJumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466391DD1F53E72800CAB0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466391C01F53E72500CAB0BB /* ArrowPingPong */;
+			targetProxy = 466391DC1F53E72800CAB0BB /* PBXContainerItemProxy */;
+		};
+		466391E81F53E72800CAB0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466391C01F53E72500CAB0BB /* ArrowPingPong */;
+			targetProxy = 466391E71F53E72800CAB0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466391CE1F53E72700CAB0BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466391CF1F53E72700CAB0BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466391D31F53E72700CAB0BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466391D41F53E72700CAB0BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466391ED1F53E72800CAB0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466391EE1F53E72800CAB0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466391F01F53E72800CAB0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.20.0",
+				);
+				INFOPLIST_FILE = ArrowPingPong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.ArrowPingPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		466391F11F53E72800CAB0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.20.0",
+				);
+				INFOPLIST_FILE = ArrowPingPong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.ArrowPingPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		466391F31F53E72800CAB0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				INFOPLIST_FILE = JustJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.JustJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrowPingPong.app/ArrowPingPong";
+			};
+			name = Debug;
+		};
+		466391F41F53E72800CAB0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				INFOPLIST_FILE = JustJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.JustJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrowPingPong.app/ArrowPingPong";
+			};
+			name = Release;
+		};
+		466391F61F53E72800CAB0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				INFOPLIST_FILE = JustJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.JustJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JustJump;
+			};
+			name = Debug;
+		};
+		466391F71F53E72800CAB0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DU6693Q99U;
+				INFOPLIST_FILE = JustJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.JustJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JustJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466391BC1F53E72500CAB0BB /* Build configuration list for PBXProject "ArrowPingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466391ED1F53E72800CAB0BB /* Debug */,
+				466391EE1F53E72800CAB0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466391EF1F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466391F01F53E72800CAB0BB /* Debug */,
+				466391F11F53E72800CAB0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466391F21F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466391F31F53E72800CAB0BB /* Debug */,
+				466391F41F53E72800CAB0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466391F51F53E72800CAB0BB /* Build configuration list for PBXNativeTarget "ArrowPingPongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466391F61F53E72800CAB0BB /* Debug */,
+				466391F71F53E72800CAB0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466391B91F53E72500CAB0BB /* Project object */;
+}
